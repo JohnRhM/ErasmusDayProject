@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* border: 2px solid red; */
+    height: 100vh;
+}
+
+.menu {
+    box-shadow: 10px 10px;
+    background-color: gray;
+    margin-top: 20vh;
+    border-radius: 20px;
+    /* border: 2px solid green; */
+    width: 500px;
+    height: 320px;
+}
+
+.menu-item {
+    transform: translateY(20px);
+    box-shadow: 5px 7px;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    height: 40px;
+    width: 450px;
+    text-align: center;
+}
+
+.menu-item:hover {
+    background-color: rgb(189, 189, 189);
+    box-shadow: 3px 3px;
+}
+
+.menu-item a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    /* border: 2px solid black; */
+}
+
+.menu-item a p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transform: translateY(5px);
+}
