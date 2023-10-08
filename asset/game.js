@@ -34,7 +34,8 @@ const pickRandom = (array, items) => {
 
   const randomPicks = [];
 
-  for (let index = 0; index < items / 2 + 2; index++) {
+  for (let index = 0; index < items ; index++) {
+    console.log(items);
     const randomIndex = Math.floor(Math.random() * clonedArray.length);
 
     randomPicks.push(clonedArray[randomIndex]);
