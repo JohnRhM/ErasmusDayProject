@@ -57,7 +57,7 @@ button {
 }
 
 .board {
-    padding: 20px;
+    padding: 10px;
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-gap: 20px;
